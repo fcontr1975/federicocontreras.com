@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap');
+
+body {
+	background-color:#222222;
+	margin:0px;
+	padding: 0px;
+	border:0px;
+	text-align:center;
+	font-family: 'Lato', 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size:100%;
+	color:white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cinzel', serif;
+	font-weight: 300;
+}
+
+p {
+	font-family: 'Lato', 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+a:link {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+a:visited {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.portfolioimage {
+	width:100%;
+	max-width:1280px;
+}
+
+.iconvadjust {
+	position:relative; 
+	top:-7px;
+}
+
+@media all and (max-width: 400px) {
+  body {
+		background-color:#222222;
+		margin:0px;
+		padding: 0px;
+		border:0px;
+		text-align:center;
+		font-family: 'Lato', 'Open Sans', sans-serif;
+		font-weight: 100;
+		font-size:75%;
+		color:white;
+	}
+	
+	.7pxadjust {
+		position:; 
+		top:-7px;
+		padding:30px;
+	}
+
+}

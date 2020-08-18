@@ -1,0 +1,1 @@
+aws s3 sync "s3://federicocontreras.com/" "D:\xampp\htdocs\federicocontreras.com"

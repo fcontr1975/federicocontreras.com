@@ -1,0 +1,1 @@
+aws s3 cp "s3://federicocontreras.com/" "D:\xampp\htdocs\federicocontreras.com" --recursive --color 

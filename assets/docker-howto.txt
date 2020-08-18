@@ -1,0 +1,8 @@
+# docker build -t federicocontreras-portfolio .
+# docker run -dit --name federicocontreras-portfolio -p 8080:80 federicocontreras-portfolio
+
+# To kill the running container:
+
+# docker container stop be5aa58bac27
+# systemctl daemon-reload
+# systemctl restart docker
