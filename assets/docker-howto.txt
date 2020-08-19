@@ -1,8 +1,18 @@
-# docker build -t federicocontreras-portfolio .
+# docker build --tag fcontr1975/federicocontreras-portfolio .
 # docker run -dit --name federicocontreras-portfolio -p 8080:80 federicocontreras-portfolio
+
+# To update the version on the docker site:
+# docker push fcontr1975/federicocontreras-portfolio:latest
 
 # To kill the running container:
 
 # docker container stop be5aa58bac27
 # systemctl daemon-reload
 # systemctl restart docker
+
+# docker build
+
+# If you get an error: denied: requested access to the resource is denied
+# docker logout
+# docker Login
+# Then reenter your login credentials

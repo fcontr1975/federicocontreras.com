@@ -1,15 +1,12 @@
 doctype html
-
 html
-	head
-		include head.pug
-		
-	body
-		include branding.pug
-		include nav.pug
-
-		img.portfolioimage(src="images/20mm_omicron_001A.jpg" style="")
-			
-		include nav.pug
-		script(src="js/functions.js")
-		script(src="js/index.js")
+  head
+    include head.pug
+  body
+    include branding.pug
+    include nav.pug
+    img.portfolioimage(src="images/20mm_omicron_001A.jpg" style="")
+    p This is a containerized verion of my portfolio site runnning on Kubernetes and load balanced accross 3 worker nodes for resiliency.
+    include nav.pug
+    script(src="js/functions.js")
+    script(src="js/index.js")
